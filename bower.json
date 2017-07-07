@@ -5,7 +5,6 @@
   ],
   "description": "A website for Cavalier Fencing Club",
   "main": "app.js",
-  "license": "MIT",
   "homepage": "index.html",
   "ignore": [
     "**/.*",

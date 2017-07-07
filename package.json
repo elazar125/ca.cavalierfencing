@@ -1,0 +1,28 @@
+{
+  "name": "ca.cavalierfencing",
+  "version": "1.0.0",
+  "description": "A website for Cavalier Fencing Club",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elazar125/ca.cavalierfencing.git"
+  },
+  "author": "Ezra Lazar",
+  "bugs": {
+    "url": "https://github.com/elazar125/ca.cavalierfencing/issues"
+  },
+  "homepage": "https://github.com/elazar125/ca.cavalierfencing#readme"
+}
