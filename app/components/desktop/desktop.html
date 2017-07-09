@@ -1,0 +1,22 @@
+<div class="has-navbar-top">
+    <div class="navbar navbar-app navbar-absolute-top">
+        <img class="logo" src="">
+        <a class="btn btn-default" href="/desktop/description">Home</a>
+        <a class="btn btn-default" href="/desktop/gallery">Gallery</a>
+        <a class="btn btn-default" href="/desktop/events">Schedule</a>
+        <a class="btn btn-default" href="/desktop/contact">Contact Us</a>
+        <a class="btn btn-default" href="/desktop/registration">Register</a>
+    </div>
+    <div class="app-body">
+        <div class="app-content">
+            <div ng-switch on="page">
+                <cf-description ng-switch-when="description"></cf-description>
+                <cf-gallery ng-switch-when="gallery"></cf-gallery>
+                <cf-events ng-switch-when="events"></cf-events>
+                <cf-contact ng-switch-when="contact"></cf-contact>
+                <cf-registration ng-switch-when="registration"></cf-registration>
+                <cf-error ng-switch-default></cf-error>
+            </div>
+        </div>
+    </div>
+</div>

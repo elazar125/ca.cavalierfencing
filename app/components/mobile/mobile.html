@@ -1,0 +1,27 @@
+<div class="has-navbar-top has-sidebar-left">
+    <ul class="sidebar sidebar-left">
+        <div class="list-group">
+            <a class="list-group-item" href="/mobile/description">Home</a>
+            <a class="list-group-item" href="/mobile/gallery">Gallery</a>
+            <a class="list-group-item" href="/mobile/events">Schedule</a>
+            <a class="list-group-item" href="/mobile/contact">Contact Us</a>
+            <a class="list-group-item" href="/mobile/registration">Register</a>
+        </div>
+    </ul>
+    <div class="navbar navbar-app navbar-absolute-top">
+        <div class="hamburger"></div>
+        <span class="title">Cavalier Fencing Club</span>
+    </div>
+    <div class="app-body">
+        <div class="app-content">
+            <div ng-switch on="page">
+                <cf-description ng-switch-when="description"></cf-description>
+                <cf-gallery ng-switch-when="gallery"></cf-gallery>
+                <cf-events ng-switch-when="events"></cf-events>
+                <cf-contact ng-switch-when="contact"></cf-contact>
+                <cf-registration ng-switch-when="registration"></cf-registration>
+                <cf-error ng-switch-default></cf-error>
+            </div>
+        </div>
+    </div>
+</div>
