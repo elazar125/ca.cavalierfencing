@@ -3,6 +3,7 @@
 angular.module('ca.cavalierfencing', [
     'ngRoute',
     'ngMap',
+    'ngtweet',
     'ca.cavalierfencing.detect-browser',
     'ca.cavalierfencing.desktop',
     'ca.cavalierfencing.mobile',
