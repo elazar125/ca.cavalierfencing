@@ -15,12 +15,12 @@ angular.module('ca.cavalierfencing', [
     'ca.cavalierfencing.error'
 ]);
 
-angular.module('ca.cavalierfencing.detect-browser', ['ngRoute']);
-angular.module('ca.cavalierfencing.desktop',        ['ngRoute']);
-angular.module('ca.cavalierfencing.mobile',         ['ngRoute']);
-angular.module('ca.cavalierfencing.description',    ['ngRoute']);
-angular.module('ca.cavalierfencing.contact',        ['ngRoute']);
-angular.module('ca.cavalierfencing.gallery',        ['ngRoute']);
-angular.module('ca.cavalierfencing.events',         ['ngRoute']);
-angular.module('ca.cavalierfencing.registration',   ['ngRoute']);
-angular.module('ca.cavalierfencing.error',          ['ngRoute']);
+angular.module('ca.cavalierfencing.detect-browser', []);
+angular.module('ca.cavalierfencing.desktop', []);
+angular.module('ca.cavalierfencing.mobile', []);
+angular.module('ca.cavalierfencing.description', []);
+angular.module('ca.cavalierfencing.contact', []);
+angular.module('ca.cavalierfencing.gallery', []);
+angular.module('ca.cavalierfencing.events', []);
+angular.module('ca.cavalierfencing.registration', []);
+angular.module('ca.cavalierfencing.error', []);
