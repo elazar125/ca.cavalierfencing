@@ -1,6 +1,6 @@
 angular.module('ca.cavalierfencing.detect-browser')
 
-.config(['$routeProvider', function($routeProvider) {
+.config(function($routeProvider) {
 
     function isDesktop() {
         var check = false;
@@ -14,4 +14,4 @@ angular.module('ca.cavalierfencing.detect-browser')
         : { redirectTo: '/mobile/description' }
     );
 
-}]);
+});

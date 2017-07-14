@@ -1,10 +1,10 @@
 angular.module('ca.cavalierfencing.desktop')
 
-.config(['$routeProvider', function($routeProvider) {
+.config(function($routeProvider) {
 
     $routeProvider.when('/desktop/:page', {
-        templateUrl: 'app/components/desktop/desktop.html',
+        templateUrl: 'app/templates/desktop/desktop.html',
         controller: 'desktopController'
     });
 
-}]);
+});

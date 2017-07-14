@@ -2,6 +2,9 @@ angular.module('ca.cavalierfencing.gallery')
 
 .directive('cfGallery', function() {
   return {
-    templateUrl: 'app/components/gallery/gallery.html'
+    templateUrl: 'app/pages/gallery/gallery.html',
+    scope: {
+        photo: '='
+    }
   };
 });

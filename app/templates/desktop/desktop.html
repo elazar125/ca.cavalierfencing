@@ -1,9 +1,9 @@
 <div class="has-navbar-top">
     <div class="navbar navbar-app navbar-absolute-top">
-        <img class="logo" src="">
+        <img class="logo" src="/app/images/logo.jpeg">
         <a class="btn btn-default" href="#!/desktop/description">Home</a>
         <a class="btn btn-default" href="#!/desktop/gallery">Gallery</a>
-        <a class="btn btn-default" href="#!/desktop/events">Schedule</a>
+        <a class="btn btn-default" href="#!/desktop/schedule">Schedule</a>
         <a class="btn btn-default" href="#!/desktop/contact">Contact Us</a>
         <a class="btn btn-default" href="#!/desktop/registration">Register</a>
     </div>
@@ -12,7 +12,7 @@
             <div ng-switch on="page">
                 <cf-description ng-switch-when="description"></cf-description>
                 <cf-gallery ng-switch-when="gallery"></cf-gallery>
-                <cf-events ng-switch-when="events"></cf-events>
+                <cf-schedule ng-switch-when="schedule"></cf-schedule>
                 <cf-contact ng-switch-when="contact"></cf-contact>
                 <cf-registration ng-switch-when="registration"></cf-registration>
                 <cf-error ng-switch-default></cf-error>

@@ -1,10 +1,10 @@
 angular.module('ca.cavalierfencing.mobile')
 
-.config(['$routeProvider', function($routeProvider) {
+.config(function($routeProvider) {
 
     $routeProvider.when('/mobile/:page', {
-        templateUrl: 'app/components/mobile/mobile.html',
+        templateUrl: 'app/templates/mobile/mobile.html',
         controller: 'mobileController'
     });
 
-}]);
+});

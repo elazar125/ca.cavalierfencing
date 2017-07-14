@@ -3,6 +3,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
+var ngAnnotate = require('gulp-ng-annotate');
 var del = require('del');
 
 gulp.task('sass', function () {
@@ -14,6 +15,7 @@ gulp.task('sass', function () {
 gulp.task('js', function () {
   gulp.src(['./app/module.js', './app/**/*.js'])
     .pipe(concat('app.js'))
+    .pipe(ngAnnotate())
     .pipe(gulp.dest('./dist'));
 });
 

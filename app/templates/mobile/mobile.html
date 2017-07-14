@@ -3,7 +3,7 @@
         <div class="list-group">
             <a class="list-group-item" href="#!/mobile/description">Home</a>
             <a class="list-group-item" href="#!/mobile/gallery">Gallery</a>
-            <a class="list-group-item" href="#!/mobile/events">Schedule</a>
+            <a class="list-group-item" href="#!/mobile/schedule">Schedule</a>
             <a class="list-group-item" href="#!/mobile/contact">Contact Us</a>
             <a class="list-group-item" href="#!/mobile/registration">Register</a>
         </div>
@@ -21,7 +21,7 @@
             <div ng-switch on="page">
                 <cf-description ng-switch-when="description"></cf-description>
                 <cf-gallery ng-switch-when="gallery"></cf-gallery>
-                <cf-events ng-switch-when="events"></cf-events>
+                <cf-schedule ng-switch-when="schedule"></cf-schedule>
                 <cf-contact ng-switch-when="contact"></cf-contact>
                 <cf-registration ng-switch-when="registration"></cf-registration>
                 <cf-error ng-switch-default></cf-error>
