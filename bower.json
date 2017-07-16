@@ -19,6 +19,7 @@
     "gulp": "^3.9.1",
     "ngtweet": "^0.6.1",
     "angular-route": "1.6.5",
-    "ngmap": "^1.18.4"
+    "ngmap": "^1.18.4",
+    "angular-material": "^1.1.4"
   }
 }
