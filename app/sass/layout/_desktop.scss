@@ -1,0 +1,23 @@
+body {
+    background-color: darkred;
+}
+
+md-card {
+    background-color: white;
+}
+
+.desktop {
+    &-body {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.column {
+    &-half {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+}

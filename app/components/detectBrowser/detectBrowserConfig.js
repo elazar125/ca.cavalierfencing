@@ -10,8 +10,8 @@ angular.module('ca.cavalierfencing.detect-browser')
 
     $routeProvider.when('/detect-browser', 
         isDesktop()
-        ? { redirectTo: '/desktop/description' }
-        : { redirectTo: '/mobile/description' }
+        ? { redirectTo: '/desktop' }
+        : { redirectTo: '/mobile' }
     );
 
 });

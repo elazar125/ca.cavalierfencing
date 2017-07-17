@@ -4,6 +4,7 @@ angular.module('ca.cavalierfencing', [
     'ngRoute',
     'ngMap',
     'ngtweet',
+    'ui.carousel',
     'ca.cavalierfencing.detect-browser',
     'ca.cavalierfencing.desktop',
     'ca.cavalierfencing.mobile',

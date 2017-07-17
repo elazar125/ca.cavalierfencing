@@ -1,5 +1,13 @@
-<div class="section">
-    <div class="carousel">
-        <cf-photo ng-repeat="photo in photos" photo="photo"></cf-photo>
-    </div>
-</div>
+<ui-carousel 
+    slides="photos"
+    initial-slide="1"
+    autoplay="true"
+    fade="true"
+    arrows="false"
+    class="gallery">
+
+    <carousel-item>
+        <img class="gallery-image" src="{{ item }}">
+        <p class="gallery-text">Cavalier Fencing</p>
+    </carousel-item>
+</ui-carousel>

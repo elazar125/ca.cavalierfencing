@@ -8,7 +8,14 @@ angular.module('ca.cavalierfencing')
     };
 
     function getPhotos(page, acess_token) {
-        return get(page, acess_token, 'photos', 'images');
+        return [
+            '/app/images/1.jpg',
+            '/app/images/2.jpg',
+            '/app/images/3.jpg',
+            '/app/images/4.jpg',
+            '/app/images/5.jpg',
+        ];
+        // return get(page, acess_token, 'photos', 'images');
     }
 
     function getEvents(page, acess_token) {

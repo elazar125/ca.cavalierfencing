@@ -1,0 +1,19 @@
+.gallery {
+    margin-bottom: -15vh;
+
+    &-image {
+        height: 60vh;
+        width: 100vw;
+    }
+
+    &-text {
+        margin-top: -18vh;
+        margin-left: 2vh;
+        font-family: impact;
+        font-size: 15vh;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000;
+    }
+}
