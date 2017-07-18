@@ -5,9 +5,6 @@ angular.module('ca.cavalierfencing', [
     'ngMap',
     'ngtweet',
     'ui.carousel',
-    'ca.cavalierfencing.detect-browser',
-    'ca.cavalierfencing.desktop',
-    'ca.cavalierfencing.mobile',
     'ca.cavalierfencing.description',
     'ca.cavalierfencing.contact',
     'ca.cavalierfencing.gallery',
@@ -20,9 +17,6 @@ angular.module('ca.cavalierfencing', [
     'ca.cavalierfencing.twitter-timeline'
 ]);
 
-angular.module('ca.cavalierfencing.detect-browser', []);
-angular.module('ca.cavalierfencing.desktop', []);
-angular.module('ca.cavalierfencing.mobile', []);
 angular.module('ca.cavalierfencing.description', []);
 angular.module('ca.cavalierfencing.contact', []);
 angular.module('ca.cavalierfencing.gallery', []);
