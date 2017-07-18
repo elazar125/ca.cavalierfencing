@@ -1,33 +1,13 @@
 <cf-gallery></cf-gallery>
-<div class="desktop-body">
-    <div class="column-half">
-        <md-card>
-            <md-card-content>
-                <cf-description></cf-description>
-            </md-card-content>
-        </md-card>
-        <cf-schedule></cf-schedule>
+<div class="desktop">
+    <div class="column">
+        <cf-description></cf-description>
         <cf-registration></cf-registration>
-        <md-card>
-            <md-card-content>
-                <cf-contact></cf-contact>
-            </md-card-content>
-        </md-card>
+        <cf-schedule></cf-schedule>
     </div>
-    <div class="column-half">
-        <md-card>
-            <md-card-content>
-                <ng-map zoom="14" center="363 Thompson Drive, Winnipeg, MB, Canada">
-                    <marker position="363 Thompson Drive, Winnipeg, MB, Canada"></marker>
-                </ng-map>
-            </md-card-content>
-        </md-card>
-        <md-card>
-            <md-card-content>
-                <twitter-timeline twitter-timeline-options='{"chrome": "noheader", "height": "600", "theme": "dark"}'>
-                    <a class="twitter-timeline" data-height="600" href="https://twitter.com/cavalierfencing"></a>
-                </twitter-timeline>
-            </md-card-content>
-        </md-card>
+    <div class="column">
+        <cf-map></cf-map>
+        <cf-contact></cf-contact>
+        <cf-twitter-timeline></cf-twitter-timeline>
     </div>
-</md-content>
+</div>

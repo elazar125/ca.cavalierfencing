@@ -1,21 +1,19 @@
 // Abstract
 @import "abstract/variables";
-@import "abstract/colours";
 
 // Base
-@import "base/font";
+@import "base/body";
 
 // Vendors
 
 // Components
-@import "components/button";
-@import "components/header";
-@import "components/logo";
+@import "components/gallery";
+@import "components/card";
+@import "components/event";
 
 // Layout
 @import "layout/desktop";
 @import "layout/mobile";
-@import "layout/gallery";
 
 // Pages
 

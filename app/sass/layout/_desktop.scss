@@ -1,21 +1,9 @@
-body {
-    background-color: darkred;
-}
-
-md-card {
-    background-color: white;
-}
-
 .desktop {
-    &-body {
-        padding: 20px;
-        display: flex;
-        flex-direction: row;
-    }
-}
+    padding: $desktop-body-padding;
+    display: flex;
+    flex-direction: row;
 
-.column {
-    &-half {
+    .column {
         display: flex;
         flex-direction: column;
         width: 50%;

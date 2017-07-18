@@ -1,0 +1,24 @@
+.gallery {
+    margin-bottom: -1 * $header-text-height;
+
+    &-image {
+        height: 60vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+
+    &-text {
+        margin-top: (-1 * $header-text-height) + (-1 * $header-text-margin);
+        margin-left: $header-text-margin;
+        font-family: impact;
+        font-size: $header-text-height;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 1px;
+        text-shadow:
+            $header-text-shadow-width $header-text-shadow-width 0 black,
+            (-1 * $header-text-shadow-width) $header-text-shadow-width 0 black,
+            $header-text-shadow-width (-1 * $header-text-shadow-width) 0 black,
+            (-1 * $header-text-shadow-width) (-1 * $header-text-shadow-width) 0 black;
+    }
+}

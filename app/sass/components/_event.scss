@@ -1,0 +1,38 @@
+.event {
+    padding: $event-spacing;
+    margin-top: $event-spacing;
+    margin-bottom: $event-spacing;
+    height: $event-height;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &-text-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &.canceled {
+        background-color: lightgrey;
+    }
+
+    &-image {
+        height: $event-height;
+        width: $event-height;
+        object-fit: cover;
+    }
+
+    &-title {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    &-description {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 30vw;
+        overflow: hidden;
+        display: inline-block;
+    }
+}
