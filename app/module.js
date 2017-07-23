@@ -5,6 +5,7 @@ angular.module('ca.cavalierfencing', [
     'ngMap',
     'ngtweet',
     'ui.carousel',
+    'ca.cavalierfencing.mobile-header',
     'ca.cavalierfencing.description',
     'ca.cavalierfencing.contact',
     'ca.cavalierfencing.gallery',
@@ -14,9 +15,11 @@ angular.module('ca.cavalierfencing', [
     'ca.cavalierfencing.event',
     'ca.cavalierfencing.photo',
     'ca.cavalierfencing.map',
-    'ca.cavalierfencing.twitter-timeline'
+    'ca.cavalierfencing.twitter-timeline',
+    'ca.cavalierfencing.links'
 ]);
 
+angular.module('ca.cavalierfencing.mobile-header', []);
 angular.module('ca.cavalierfencing.description', []);
 angular.module('ca.cavalierfencing.contact', []);
 angular.module('ca.cavalierfencing.gallery', []);
@@ -27,3 +30,4 @@ angular.module('ca.cavalierfencing.event', []);
 angular.module('ca.cavalierfencing.photo', []);
 angular.module('ca.cavalierfencing.map', []);
 angular.module('ca.cavalierfencing.twitter-timeline', []);
+angular.module('ca.cavalierfencing.links', []);
