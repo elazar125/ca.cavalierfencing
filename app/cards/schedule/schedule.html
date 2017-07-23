@@ -5,6 +5,8 @@
         </md-card-title-text>
     </md-card-title>
     <md-card-content>
-        <cf-event ng-repeat="event in events" event="event"></cf-event>
+        <md-content class="event-list">
+            <cf-event ng-repeat="event in events" event="event"></cf-event>
+        </md-content>
     </md-card-content>
 </md-card>

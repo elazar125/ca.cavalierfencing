@@ -61,6 +61,7 @@ angular.module('ca.cavalierfencing')
                 is_canceled: false
             }
         ];
+        
         // return get(page, acess_token, 'events', 'name,start_time,end_time,is_canceled');
     }
 

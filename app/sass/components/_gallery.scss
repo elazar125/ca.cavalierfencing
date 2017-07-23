@@ -1,5 +1,23 @@
+.ui-carousel {
+    margin-bottom: 0;
+}
+
 .gallery {
-    margin-bottom: -1 * $header-text-height;
+    &-overlay {
+        position: absolute;
+        top: 0;
+        height: 60vh;
+        padding: $header-text-margin;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &-logo {
+        height: 20vh;
+        width: 20vh;
+        object-fit: cover;
+    }
 
     &-image {
         height: 60vh;
@@ -8,17 +26,20 @@
     }
 
     &-text {
-        margin-top: (-1 * $header-text-height) + (-1 * $header-text-margin);
-        margin-left: $header-text-margin;
-        font-family: impact;
+        margin: 0;
+        white-space: nowrap;
         font-size: $header-text-height;
-        text-transform: uppercase;
-        color: white;
-        letter-spacing: 1px;
-        text-shadow:
-            $header-text-shadow-width $header-text-shadow-width 0 black,
-            (-1 * $header-text-shadow-width) $header-text-shadow-width 0 black,
-            $header-text-shadow-width (-1 * $header-text-shadow-width) 0 black,
-            (-1 * $header-text-shadow-width) (-1 * $header-text-shadow-width) 0 black;
     }
+}
+
+.title-text {
+    font-family: impact;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        $header-text-shadow-width $header-text-shadow-width 0 black,
+        (-1 * $header-text-shadow-width) $header-text-shadow-width 0 black,
+        $header-text-shadow-width (-1 * $header-text-shadow-width) 0 black,
+        (-1 * $header-text-shadow-width) (-1 * $header-text-shadow-width) 0 black;
 }

@@ -1,0 +1,29 @@
+md-toolbar {
+    background-color: white;   
+}
+
+.mobile {
+    @media(orientation: landscape) {
+        font-size: $moile-landscape-font-size;
+
+        .md-headline {
+            font-size: $moile-landscape-card-title-font-size;
+            line-height: $moile-landscape-card-title-font-size;
+        }
+    }
+
+    md-card {
+        margin: 20px;
+    }
+
+    &-logo {
+        height: 200%;
+        margin-top: 60px;
+
+        & + .title-text {
+            margin-top: 130px;
+            margin-left: 40px;
+            font-size: 70px;
+        }
+    }
+}
