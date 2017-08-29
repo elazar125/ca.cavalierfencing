@@ -28,6 +28,24 @@ angular.module('ca.cavalierfencing')
                 image: '/resources/images/mfa-logo.gif',
                 link: 'http://www.fencing.mb.ca/events/?cid=mc-6bea5a7e02f8f5e2945b6f6b1bbf9266&mc_id=142',
                 is_canceled: false
+            },
+            {
+                name: 'Opening Night! Welcome Returning Members!',
+                description: 'We want to kick the new season off by welcoming our back our returning members. We\'ll get you back in the loop after the summer break.',
+                start_time: '2017-09-14T19:00:00.000',
+                end_time: '2017-09-14T20:30:00.000',
+                image: '/resources/images/1.jpg',
+                link: 'https://www.facebook.com/events/274751626362141',
+                is_canceled: false
+            },
+            {
+                name: 'Opening Night! Welcome New Members!',
+                description: 'Today, we\'ll start off with the basics for brand new fencers. If you\'ve ever wanted to try out fencing, come on down today!',
+                start_time: '2017-09-18T19:00:00.000',
+                end_time: '2017-09-18T20:30:00.000',
+                image: '/resources/images/2.jpg',
+                link: 'https://www.facebook.com/events/1482227965198752',
+                is_canceled: false
             }
         ];
         
