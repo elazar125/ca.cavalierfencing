@@ -1,6 +1,13 @@
 angular.module('ca.cavalierfencing')
 
 .controller('mainController', function($scope, $routeParams, cfFacebook) {
-    $scope.events = cfFacebook.getEvents();
-    $scope.photos = cfFacebook.getPhotos();
+    cfFacebook.getEvents()
+        .then(
+            (response) => $scope.events = response.data,
+            (response) => console.log(response));
+
+    cfFacebook.getPhotos()
+        .then(
+            (response) => $scope.photos = response.data,
+            (response) => console.log(response));
 });
